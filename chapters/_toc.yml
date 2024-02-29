@@ -1,0 +1,24 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+  - caption: IT Management
+    chapters:
+    - file: IT-Management/markdown
+    - file: IT-Management/notebooks
+    - file: IT-Management/markdown-notebooks
+  - caption: AI and Machine Learning
+    chapters:
+    - file: AI-and-ML/notebooks
+    - file: AI-and-ML/markdown
+    - file: AI-and-ML/markdown-notebooks
+  - caption: Cybersecurity
+    chapters:
+    - file: Cybersecurity/markdown
+    - file: Cybersecurity/notebooks
+    - file: Cybersecurity/markdown-notebooks
+
+
+
