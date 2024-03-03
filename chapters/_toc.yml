@@ -3,20 +3,26 @@
 
 format: jb-book
 root: intro
-parts:
-  - caption: IT Management
-    chapters:
-    - file: IT-Management/markdown
+chapters:
+  - title: Getting Started
+    file: Getting-Started/markdown
+    sections:
+    - file: Getting-Started/vision
+    - file: Getting-Started/orga-team
+    - file: Getting-Started/code-of-conduct
+  - title: IT Management
+    file: IT-Management/markdown
+    sections:
     - file: IT-Management/notebooks
     - file: IT-Management/markdown-notebooks
-  - caption: AI and Machine Learning
-    chapters:
+  - title: AI and Machine Learning
+    file: AI-and-ML/markdown
+    sections:
     - file: AI-and-ML/notebooks
-    - file: AI-and-ML/markdown
     - file: AI-and-ML/markdown-notebooks
-  - caption: Cybersecurity
-    chapters:
-    - file: Cybersecurity/markdown
+  - title: Cybersecurity
+    file: Cybersecurity/markdown
+    sections:
     - file: Cybersecurity/notebooks
     - file: Cybersecurity/markdown-notebooks
 
